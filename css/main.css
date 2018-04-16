@@ -1,7 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+/*
+Montserrat, 400
+*/
 .container {
   width: 1340px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 16px;
 }
 .row {
   display: flex;
@@ -29,4 +34,9 @@
 }
 .nav-list {
   padding-left: 30px;
+}
+.nav-list a {
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  text-decoration: none;
 }
