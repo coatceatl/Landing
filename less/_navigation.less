@@ -1,5 +1,5 @@
-@link-nav-text: saturate(@touch-color, 25%);
-@link-nav-border: darken(@touch-color, 20%);
+@link-nav-text: saturate(@links-color, 25%);
+@link-nav-border: darken(@links-color, 20%);
 
 .nav-row {
   display: flex;
@@ -32,6 +32,8 @@
   padding-left: 30px;
 
   a {
+    color: @base-color;
+    font-weight: 700;
     font-family: Montserrat;
     font-size: 1.25rem;
     line-height: 0.7;
