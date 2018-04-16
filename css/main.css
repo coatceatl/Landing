@@ -14,7 +14,7 @@ html {
   height: 977px;
 }
 .container {
-  width: 1510px;
+  width: 1140px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -30,9 +30,11 @@ html {
 }
 .logo-holder {
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 .navigation-holder {
   padding-top: 70px;
+  padding-bottom: 30px;
 }
 .nav-lists {
   margin: 0;
@@ -70,6 +72,6 @@ html {
   padding-bottom: 3px;
   border-bottom: 1px solid #216238;
 }
-.nav {
+/*.nav {
   height: 120px;
-}
+}*/
