@@ -84,7 +84,7 @@ html {
   padding-bottom: 3px;
   border-bottom: 1px solid #623821;
 }
-.header-content {
+header {
   width: 760px;
 }
 .heading-1 {
@@ -129,4 +129,11 @@ html {
 }
 .service-row {
   width: 100%;
+}
+.service-box-header {
+  font-size: 1.25rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.75;
+  text-transform: uppercase;
 }
