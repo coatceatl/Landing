@@ -132,7 +132,10 @@ header {
   width: 100%;
   background-image: url(../img/bg/service-bg.png);
   background-repeat: no-repeat;
-  height: 544px;
+  background-color: #ffffff;
+  height: 496px;
+  position: relative;
+  top: -150px;
 }
 .service-box-header {
   font-size: 1.25rem;
@@ -140,11 +143,28 @@ header {
   font-weight: 700;
   line-height: 1.75;
   text-transform: uppercase;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-top: 115px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 173px;
+}
+.header-main {
+  color: #ffffff;
 }
 .service-box-text {
   text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text-main {
+  color: #ffffff;
 }
 .service-box-icon {
   display: inline-flex;
+}
+.service-box-btn {
+  position: absolute;
+  bottom: 25px;
+  left: -20px;
 }
