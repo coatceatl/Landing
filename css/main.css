@@ -24,6 +24,7 @@ html {
   height: 770px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -129,6 +130,9 @@ header {
 }
 .service-row {
   width: 100%;
+  background-image: url(../img/bg/service-bg.png);
+  background-repeat: no-repeat;
+  height: 544px;
 }
 .service-box-header {
   font-size: 1.25rem;
