@@ -137,6 +137,9 @@ header {
   position: relative;
   top: -150px;
 }
+.company-value {
+  width: 760px;
+}
 .service-box-header {
   font-size: 1.25rem;
   font-family: Montserrat;
@@ -173,4 +176,8 @@ header {
 .col-10 {
   padding-left: 0;
   padding-right: 0;
+}
+#company {
+  background-image: url(../img/bg/company.jpg);
+  background-repeat: no-repeat;
 }
