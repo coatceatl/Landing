@@ -1,6 +1,14 @@
+.company-container {
+  position: absolute;
+  left: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 .company-value {
   width: 760px;
   z-index: 1000;
+  color: black;
 }
 
 .company-bg-block {
@@ -30,11 +38,17 @@
 
 .bg-icon:after {
   display: flex;
-  width: 1150px;
+  width: 920px;
   height: 100%;
   position: absolute;
   content: '';
   background-image: url(../img/bg/basis-company.png);
   background-repeat: no-repeat;
   background-position: right top;
+}
+.company-graph {
+  height: 380px;
+  width: 100%;
+  background-image: url(../img/icons/special-company.png);
+  background-repeat: no-repeat;
 }
