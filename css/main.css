@@ -18,6 +18,8 @@ html {
   width: 100%;
   background-image: url(../img/bg/header-bg.png);
   height: 977px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .container {
   width: 1140px;
@@ -28,6 +30,8 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 .row {
   display: flex;
@@ -136,6 +140,15 @@ header {
   height: 496px;
   position: relative;
   top: -150px;
+  margin-right: 0;
+}
+.service-box {
+  padding-left: 0;
+  padding-right: 0;
+}
+.service-box .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 .service-box-header {
   font-size: 1.25rem;
@@ -143,8 +156,9 @@ header {
   font-weight: 700;
   line-height: 1.75;
   text-transform: uppercase;
-  margin-bottom: 30px;
-  padding-top: 115px;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding-top: 105px;
   padding-left: 30px;
   padding-right: 30px;
   height: 173px;
