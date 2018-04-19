@@ -184,17 +184,23 @@ header {
 }
 .bg-foto {
   width: 50%;
+}
+.bg-foto:after {
+  display: block;
+  width: 700px;
+  height: 100%;
+  position: absolute;
+  content: '';
   background-image: url(../img/bg/company.jpg);
   background-repeat: no-repeat;
+  background-position: right top;
 }
 .bg-icon {
   width: 50%;
-  /*background-image: url(../img/bg/basis-company.png);*/
-  /*  background-repeat: no-repeat; */
 }
 .bg-icon:after {
   display: block;
-  width: 1000px;
+  width: 920px;
   height: 100%;
   position: absolute;
   content: '';
